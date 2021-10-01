@@ -142,40 +142,7 @@ public class AddUser extends JFrame implements ActionListener{
     }
     
     public void actionPerformed(ActionEvent ae){
-        /*try{
-            
-            if(ae.getSource() == b1){
-                try{
-                conn con = new conn();
-                String sql = "insert into user(user_id, name, address, gender, email, phone) values(?, ?, ?, ?, ?, ?)";
-		PreparedStatement st = con.c.prepareStatement(sql);
-		st.setString(1, t1.getText());
-		st.setString(2, t2.getText());
-		st.setString(3, t3.getText());
-		st.setString(4, (String) comboBox_1.getSelectedItem());
-		st.setString(5, t4.getText());
-		st.setString(6, t5.getText());
-
-		int i = st.executeUpdate();
-		if (i > 0){
-                    JOptionPane.showMessageDialog(null, "Successfully Added");
-                    this.setVisible(false);
-                    new Home().setVisible(true);
-                }
-		else
-                    JOptionPane.showMessageDialog(null, "error");
-                }catch(Exception e){
-                    e.printStackTrace();
-                }
-            }
-            
-            if(ae.getSource() == b2){
-                this.setVisible(false);
-		new Home().setVisible(true);		
-            }
-        }catch(Exception e){
-            
-        }*/
+        
     }
 }
 

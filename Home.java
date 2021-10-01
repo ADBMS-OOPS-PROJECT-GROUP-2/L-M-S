@@ -192,7 +192,7 @@ public class Home extends JFrame implements ActionListener{
             }
             if(ae.getSource() == b3){
                 this.setVisible(false);
-                /*new AddStudent().setVisible(true);*/
+                
             }
             
         }

@@ -185,15 +185,15 @@ public class Admin_home extends JFrame implements ActionListener{
             }
             if(ae.getSource() == b3){
                 this.setVisible(false);
-                /*new AddStudent().setVisible(true);*/
+                /*new USER().setVisible(true);*/
             }
             if(ae.getSource() == b3){
                 this.setVisible(false);
-                /*new AddStudent().setVisible(true);*/
+                
             }
             if(ae.getSource() == b4){
                 this.setVisible(false);
-                /*new AddStudent().setVisible(true);*/
+                /
             }
             
         }
