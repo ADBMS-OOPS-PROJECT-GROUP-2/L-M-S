@@ -66,7 +66,7 @@ public class Index extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(153, 255, 255));
         jLabel2.setForeground(new java.awt.Color(153, 255, 153));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lsm/proj 1.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lsm/Pictures/proj 1.jpg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 860, 555));
 
         pack();
@@ -124,6 +124,7 @@ public class Index extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new Index().setVisible(true);
             }

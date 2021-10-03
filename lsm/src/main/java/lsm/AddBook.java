@@ -1,4 +1,4 @@
-package library.management.system;
+package lsm;
 
 import java.awt.*;
 import javax.swing.*;

@@ -115,7 +115,7 @@ public class AHOME extends javax.swing.JFrame {
         });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 370, 157, 53));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lsm/proj3.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lsm/Pictures/proj3.jpg"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 580));
 
         pack();
@@ -150,7 +150,7 @@ public class AHOME extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         if(evt.getSource() == jButton5){
                 this.setVisible(false);
-		new AddBook().setVisible(true);        // TODO add your handling code here:
+//		new AddBook().setVisible(true);        // TODO add your handling code here:
     }       // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
