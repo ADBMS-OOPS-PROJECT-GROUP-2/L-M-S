@@ -152,5 +152,8 @@ public class AddBook extends JFrame implements ActionListener{
 		        random();
 
 	}
+ public void actionPerformed(ActionEvent ae){
+     
+    }	
 
 }
