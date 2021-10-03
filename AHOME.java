@@ -126,9 +126,11 @@ public class AHOME extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+  if(evt.getSource() == jButton1){
+                this.setVisible(false);
+		new AddUser().setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
-
+    }
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
@@ -146,7 +148,10 @@ public class AHOME extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+        if(evt.getSource() == jButton5){
+                this.setVisible(false);
+		new AddBook().setVisible(true);        // TODO add your handling code here:
+    }       // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
     /**

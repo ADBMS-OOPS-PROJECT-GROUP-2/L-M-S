@@ -1,4 +1,11 @@
-package library.management.system;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lsm;
+
+
 
 import java.awt.*;
 import javax.swing.*;
@@ -156,7 +163,7 @@ public class AddBook extends JFrame implements ActionListener{
 
 	public void actionPerformed(ActionEvent ae){
         try{
-            conn con = new conn();
+       /*     conn con = new conn();
             if(ae.getSource() == b1){
                 String sql = "insert into book(book_id, name, isbn, publisher, edition, price, pages) values(?, ?, ?, ?, ?, ?, ?)";
 		PreparedStatement st = con.c.prepareStatement(sql);
@@ -181,16 +188,19 @@ public class AddBook extends JFrame implements ActionListener{
                 t5.setText("");
                 t6.setText("");
 		st.close();
-            }
+            }*/
             if(ae.getSource() == b2){
                 this.setVisible(false);
-		new Home().setVisible(true);
+		new AHOME().setVisible(true);
 
             }
-            con.c.close();
-        }catch(Exception e){
+           /*con.c.close();
+*/        }catch(Exception e){
             
         }
+            
     }
-
 }
+
+
+      
