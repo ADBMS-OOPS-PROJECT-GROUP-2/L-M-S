@@ -299,6 +299,9 @@ b4.setBackground(Color.BLACK);
         b4.setForeground(Color.WHITE);
         contentPane.add(b4);
     }
+     public void actionPerformed(ActionEvent ae){
+     
+    }
 
 }
 
