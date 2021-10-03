@@ -14,7 +14,7 @@ public class IssueBook extends JFrame implements ActionListener{
     private JButton b1,b2,b3,b4;
 
     public static void main(String[] args) {
-new IssueBook().setVisible(true);
+                new IssueBook().setVisible(true);
 
     }
 
