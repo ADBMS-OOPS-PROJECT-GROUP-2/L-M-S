@@ -79,8 +79,16 @@ public class Login_user extends JFrame implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
+            String msg = e.getActionCommand();
+             if(msg.equals("SignUp")){
+                setVisible(false);
+		new Signup().setVisible(true);}
+              if(e.getSource() == b2){
+                this.setVisible(false);
+                new Signup();
+                
 		// TODO Auto-generated method stub
 		
 	}
 
-}
+        }}

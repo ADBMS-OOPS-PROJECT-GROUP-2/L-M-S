@@ -115,7 +115,7 @@ public class AHOME extends javax.swing.JFrame {
         });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 370, 157, 53));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("F:\\L-M-S\\PICTURES\\proj3.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lsm/proj3.jpg"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 580));
 
         pack();

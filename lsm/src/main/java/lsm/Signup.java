@@ -90,7 +90,15 @@ public class Signup extends JFrame implements ActionListener{
     }
     
     public void actionPerformed(ActionEvent ae){
+        String msg = ae.getActionCommand();
+             if(msg.equals("Back")){
+                setVisible(false);
+		new Login_user().setVisible(true);}
+              if(ae.getSource() == b2){
+                this.setVisible(false);
+                new Login_user();
      
+    }
     }
 }
 
