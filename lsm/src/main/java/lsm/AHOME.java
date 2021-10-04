@@ -150,7 +150,7 @@ public class AHOME extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         if(evt.getSource() == jButton5){
                 this.setVisible(false);
-//		new AddBook().setVisible(true);        // TODO add your handling code here:
+		new AddBook().setVisible(true);        // TODO add your handling code here:
     }       // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
